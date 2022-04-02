@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin: 0;
+
+}
+
+.nev-item
+{
+    font-size:100px;
+    text-transform: capitalize;
+    color: #ea3e3e8a;
+    font-weight: 300;
+}
+
+.navbar-brand img
+{
+    width: 120px;
+}
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+}
+.navbar{
+    padding: 1em 0em !important;
+}
+
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+.banner{
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+.carousel-item
+{
+height: 400px;
+min-height: 300px;
+-webkit-background-size: cover;
+background: no-repeat scroll center scroll;
+background-size: cover;
+top: 50%;
+
+}
+
+.heading
+{
+text-align: center;
+color: black;
+}
+
+.container
+{
+background-color:white;
+justify-content: center;
+flex-wrap: wrap;
+margin: 27px;
+
+
+
+}
+
+.map
+{
+    display: flex;
+    justify-content: center;
+align-item: center ;
+padding-left: 0px; 
+padding-right: 0px;
+
+}
+
+
+.ftco-footer-widget 
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+.ftco-footer
+{
+    width: 100%;
+    height: auto;
+}
+.ftco-footer {
+    font-size: 14px;
+    background: #2910a459;
+    padding: 35px 0 10px 0px;
+    width:0 auto;
+  }
+
+  .card{
+      width: 280px;
+      height: 360px;
+      padding: 2rem 1rem;
+      background: #fff;
+      position:relative;
+      display: flex;
+      align-items: flex-end;
+      box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+      transition: 0.5s ease-in-out;
+  }
+
+  .card:hover{
+      transform: translateY(20px);
+  }
+  .card::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display:block;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+  }
+
+  .card:hover:before{
+      opacity: 1;
+  }
+
+  .card img
+  {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+  }
+
+  .card .info
+  {
+position: relative;
+z-index: 3;
+color: #fff;
+opacity: 0;
+transform: translateY(30px);
+transition: 0.5s all;
+  }
+
+  .card:hover .info{
+      opacity: 1;
+      transform: translateY(0px);
+  }
+
+  .card .info h1{
+      margin: 0;
+  }
+
+  .card .info p{
+      letter-spacing: 1px;
+      font-size: 15px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+  }
+
+  .card .info .btn
+  {
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      background: #fff;
+      color: #000;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.4s ease-in-out;
+  }
+
+  .line
+  
+  {
+    
+    padding: 0.5rem 1rem;
+
+  }
